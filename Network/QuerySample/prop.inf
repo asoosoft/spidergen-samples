@@ -15,17 +15,20 @@
       "640",
       "1137"
     ],
-    "responsiveTest": ""
+    "responsiveTest": "",
+    "tabletMinWidth": 500
   },
   "build": {
     "autoInc": true,
     "dynamicInc": true,
     "dynamicComp": false,
-    "bridgeName": "cordova",
+    "bridgeName": "none",
     "indexTitle": "",
     "frwLoadOption": "inTimeLoad",
     "subName": "",
-    "outputPath": ""
+    "outputPath": "",
+    "stlImportant": true,
+    "scriptLink": ""
   },
   "subversion": {
     "useMode": false,
