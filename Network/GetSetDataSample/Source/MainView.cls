@@ -34,7 +34,7 @@ function MainView*init(context, evtListener)
 	
 	this.setTxa1.setText(JSON.stringify(obj, null, '\t'));
 
-	var arr = ['이름', '아무개', '나이', '30', '성별', '모름'];
+	arr = ['이름', '아무개', '나이', '30', '성별', '모름'];
 	this.setTxa2.setText(JSON.stringify(arr, null, '\t'));
 };
 
@@ -74,7 +74,7 @@ function MainView*onSetDataBtnClick(comp, info, e)
 	try{
 		txt = JSON.parse(txt);
 	}
-	catch(e){
+	catch(err){
 		AToast.show('Object 타입 JSON 구조 에러');
 	}
 	this.setView1.setData(txt);
@@ -86,7 +86,7 @@ function MainView*onSetDataBtn2Click(comp, info, e)
 	try{
 		txt = JSON.parse(txt);
 	}
-	catch(e){
+	catch(err){
 		AToast.show('Array 타입 JSON 구조 에러');
 	}
 	this.setView2.setData(txt);
