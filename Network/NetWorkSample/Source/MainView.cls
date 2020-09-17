@@ -76,11 +76,8 @@ function MainView*onSetDataBtnClick(comp, info, e)
 		url: url,
 		success: function(result)
 		{
-			console.log(result);
-			
-			var str = JSON.stringify(result);
-			
-			console.log(str);
+			//var str = JSON.stringify(result);
+			//console.log(str);
 		
 			thisObj.dataView.setData(result);
 		},
