@@ -11,7 +11,7 @@ router.get('/', function(req, res, next)
     {
         res.send('Hello~ ' + req.query.name);
     }
-    
+
     //setData 일 경우
     else
     {
@@ -26,7 +26,6 @@ router.get('/', function(req, res, next)
         res.end();
     }
 });
-
 
 /*	
 	var data = 
