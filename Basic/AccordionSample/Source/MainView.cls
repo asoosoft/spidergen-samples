@@ -40,7 +40,7 @@ function MainView*init(context, evtListener)
 	
 	
 	//------------------------------------
-	//뷰 객체를 얻어 추가하는 방식
+	// (1) 뷰 객체를 얻어 추가하는 방식
 	//
 	this.acc.insertItem('testView', this.testView);
 
@@ -52,12 +52,14 @@ function MainView*onInitDone()
 	
 	var thisObj = this;
 
-	//모듈뷰를 동적으로 로드하여 추가하는 방식
+	//(2) 모듈뷰를 동적으로 로드하여 추가하는 방식
 	for(var i=0; i<3; i++)
 		this.acc.insertItem('menu'+i, 'Source/items/Subitem1.lay', [1+i, 2+i, 3+i]);
-		
+
+
+
 	//------------------------------------
-	//다음과 같이 응용할 수도 있다.
+	// (3) 다음과 같이 응용할 수도 있다.
 	
 	var view = AView.createView(null, 'Source/ViewItems.lay');
 	
