@@ -24,14 +24,14 @@ function MainView*init(context, evtListener)
 	this.acc.setOption(
 	{
     	showContent: false,			//아코디언 메뉴 추가시점에 바로 컨텐츠가 보여질지 여부
-        speed: 'fast',				//에니메이션 속도
+        speed: 'fast',											//에니메이션 속도
         isSingleShow: true,			//하나의 메뉴만 펼칠지
-        isAnimation: true,
-        isShowToggle: true,			//펼쳐진 항목 다시 클릭시 숨길지
+        isNoAnimation: false,		//펼쳐질 때 에니메이션 효과를 줄지
+        isNoToggle: false,				//펼쳐진 항목 다시 클릭시 숨길지
         showEvent: 'click',			//bind event name,(ex: mouseover, ...)
         mouseOverEventDelay: 0,
         
-        beforeShow: null,			//콜백 함수
+        beforeShow: null,
         afterShow: null,
         beforeHide: null,
         afterHide: null,
