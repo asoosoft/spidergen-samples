@@ -77,13 +77,6 @@
             "action": null,
             "relType": 1,
             "path": "Library\\"
-          },
-          {
-            "type": 5,
-            "name": "AppManager.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
           }
         ]
       },
@@ -117,6 +110,13 @@
             "action": null,
             "relType": 1,
             "path": "qry\\"
+          },
+          {
+            "type": 8,
+            "name": "ac003.qry",
+            "relType": 1,
+            "path": "Query\\",
+            "comment": ""
           }
         ]
       },
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "version": "3.0.9"
+  "version": "3.1.0"
 }

@@ -20,6 +20,27 @@ function MainView*onInitDone()
 
 };
 
+function MainView*onTestBtnClick(comp, info, e)
+{
+	theApp.qm.sendProcessByName('ac003', this.getContainerId(), null,
+	
+	//inblock function, 서버로 전송되기 바로 전에 호출되는 함수
+	function(queryData)
+	{
+		var blockData = queryData.getBlockData('InBlock1');
+		blockData[0].input1 = 'hello';
+		
+		queryData.printQueryData();
+	},
+	
+	//outblock function, 서버로부터 데이터를 수신한 후 바로 호출되는 함수
+	function(queryData)
+	{
+		queryData.printQueryData();
+		
+	});
+
+};
 
 function MainView*onConfirmBtnClick(comp, info, e)
 {
@@ -47,7 +68,7 @@ function MainView*onConfirmBtnClick(comp, info, e)
 
 function MainView*onSendBtnClick(comp, info, e)
 {
-theApp.qm.sendProcessByName('ac002', this.getContainerId(), null,
+	theApp.qm.sendProcessByName('ac002', this.getContainerId(), null,
 	
 	//inblock function, 서버로 전송되기 바로 전에 호출되는 함수
 	function(queryData)
@@ -69,3 +90,4 @@ theApp.qm.sendProcessByName('ac002', this.getContainerId(), null,
 		else blockData[0].sex = '여성';*/
 	});
 };
+
