@@ -27,8 +27,8 @@ function MainView*onTestBtnClick(comp, info, e)
 	//inblock function, 서버로 전송되기 바로 전에 호출되는 함수
 	function(queryData)
 	{
-		var blockData = queryData.getBlockData('InBlock1');
-		blockData[0].input1 = 'hello';
+		//var blockData = queryData.getBlockData('InBlock1');
+		//blockData[0].input1 = 'hello';
 		
 		queryData.printQueryData();
 	},

@@ -115,8 +115,7 @@
             "type": 8,
             "name": "ac003.qry",
             "relType": 1,
-            "path": "Query\\",
-            "comment": ""
+            "path": "qry\\"
           }
         ]
       },
