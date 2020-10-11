@@ -52,8 +52,10 @@ router.post('/', function(req, res, next)
 	//data 의 구조는 위의 주석 참조
 	var data = JSON.parse(req.body.data);
 
-	console.log(data.body.InBlock1);
+    console.log(data.body.InBlock1);
 
+    //console.log(data.body.InBlock1[0].login_id);
+    
 	var resData = null;
 
     if(data.header.query_name=='ac001')
@@ -102,12 +104,11 @@ router.post('/', function(req, res, next)
 			} 
 		};
 
-
-
+        //여러개의 데이터를 보내는 경우
 		for(var i=0; i<5; i++)
 		{
 			resData.body.OutBlock1.push({
-				'name': '홍길동',
+				'name': '홍길동'+i,
 				'sex': 1,
 				'age': 20000+i
 			});
@@ -139,7 +140,6 @@ router.post('/', function(req, res, next)
 		};
 	}    
 	
-
 	res.json(resData);	
 	res.end();
 });
