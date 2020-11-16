@@ -62,3 +62,10 @@ function TestView:onInitDone()
 
 };
 
+
+function TestView*onADataGrid1Select(comp, info, e)
+{
+
+	//TODO:edit here
+
+};
