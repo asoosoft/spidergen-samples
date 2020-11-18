@@ -1,4 +1,7 @@
 
+import 'Framework/afc/component/AApplication.js'
+import 'Framework/afc/component/APage.js'
+
 /**
 Constructor
 Do not call Function in Constructor.
@@ -16,12 +19,6 @@ extends AApplication;
 function calendarProjectApp*onReady()
 {
 	super.onReady();
-
-	//var navigator = new ANavigator();
-	//navigator.registerPage('Source/MainView.lay', 'MainView');
-	//navigator.goPage('MainView');
-
-	//or
 
 	this.setMainContainer(new APage('main'));
 	this.mainContainer.open('Source/MainView.lay');

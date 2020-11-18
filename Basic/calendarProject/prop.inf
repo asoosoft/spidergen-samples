@@ -11,7 +11,12 @@
     "userScalable": false,
     "isPort": true,
     "scaleValue": 100,
-    "responsiveTest": ""
+    "responsiveTest": "",
+    "layBrowserInfo": [
+      640,
+      800
+    ],
+    "tabletMinWidth": 500
   },
   "build": {
     "autoInc": true,
@@ -19,7 +24,8 @@
     "dynamicComp": false,
     "bridgeName": "none",
     "indexTitle": "",
-    "frwLoadOption": "inTimeLoad"
+    "frwLoadOption": "inTimeLoad",
+    "stlImportant": true
   },
   "subversion": {
     "useMode": false,
