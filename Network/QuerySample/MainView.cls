@@ -15,8 +15,9 @@ extends AView;
 
 function MainView*onInitDone()
 {
-
-	//TODO:edit here
+	super.onInitDone();
+	
+	
 
 };
 
