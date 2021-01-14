@@ -45,13 +45,19 @@ function BackupManagerSampleView*onAddItemBtnClick(comp, info, e)
 
 function BackupManagerSampleView*onAddRowBtnClick(comp, info, e)
 {
-	var data, time = new Date().getMilliseconds();
+	var data, time = new Date().getMilliseconds(), rowArr = [];
 	
 	for(var i=0; i<20; i++)
 	{
 		data = i+':'+time;
-		this.testGrid.addRow([data, data, data]);
+		rowArr.push([data, data, data]);
+		
+		//하나씩 추가하는 경우
+		//this.testGrid.addRow([data, data, data]);
 	}
+	
+	//한번에 모두 추가하는 경우, 성능상 이점이 있다.
+	this.testGrid.addRows(rowArr);
 };
 
 
