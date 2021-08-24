@@ -63,6 +63,7 @@ function MainView*onInitDone()
 	
 	var view = AView.createView(null, 'Source/ViewItems.lay');
 	
+	//ViewItems.lay 내부에 있는 자식뷰를 아코디언뷰에 추가
 	view.eachChild(function(acomp, inx)
 	{
 		thisObj.acc.insertItem('menu'+inx, acomp);
