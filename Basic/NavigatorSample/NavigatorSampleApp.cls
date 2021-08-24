@@ -28,7 +28,10 @@ function NavigatorSampleApp*onReady()
 	// 응용프로그램 전체를 네비게이터 방식으로 동작하게 하는 경우
 	if(isMainNavi)
 	{
-		var navigator = new ANavigator('testNavi');
+		//두번째 파라미터에 컨테이너를 셋팅하면 지정한 컨테이너의 내부에서 네비게이터가 작동된다.
+		//null 을 셋팅하거나 생략하면 메인컨테이너에서 네이게이터가 작동된다.
+		var navigator = new ANavigator('testNavi', null);
+		
 		navigator.registerPage('Source/Views/SubView1.lay', 'SubView1');
 		navigator.registerPage('Source/Views/SubView2.lay', 'SubView2');
 		navigator.registerPage('Source/Views/SubView3.lay', 'SubView3');

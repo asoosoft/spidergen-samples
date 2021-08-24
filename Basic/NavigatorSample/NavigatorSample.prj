@@ -14,12 +14,6 @@
             "name": "afc",
             "relType": 7,
             "path": "afc\\"
-          },
-          {
-            "type": 11,
-            "name": "mdfc",
-            "relType": 7,
-            "path": "mdfc\\"
           }
         ]
       },
@@ -149,5 +143,5 @@
       }
     ]
   },
-  "version": "3.0.6"
+  "version": "3.2.6"
 }
