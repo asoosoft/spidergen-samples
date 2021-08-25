@@ -33,3 +33,19 @@ function MainView*init(context, evtListener)
 	
 };
 
+function MainView*onInitDone()
+{
+	super.onInitDone();
+
+	//TODO:edit here
+
+};
+
+function MainView*onActiveDone(isFirst)
+{
+	super.onActiveDone(isFirst);
+
+	//TODO:edit here
+
+};
+
