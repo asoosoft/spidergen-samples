@@ -24,20 +24,27 @@
     "dynamicInc": true,
     "bridgeName": "none",
     "compress": false,
-    "stlImportant": false,
+    "stlImportant": true,
     "frwLoadOption": "inTimeLoad",
     "indexTitle": "",
     "subName": "",
     "outputPath": "",
     "scriptLink": ""
   },
+  "script": {
+    "before": [],
+    "after": []
+  },
   "subversion": {
     "url": "",
     "username": "",
     "password": ""
   },
-  "script": {
-    "before": [],
-    "after": []
+  "deployment": {
+    "upload": {
+      "idx": null,
+      "list": []
+    },
+    "checkVersion": false
   }
 }

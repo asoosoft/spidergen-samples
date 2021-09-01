@@ -1,8 +1,4 @@
 
-import 'Framework/afc/component/AApplication.js'
-import 'Framework/afc/component/APage.js'
-import 'Framework/afc/component/AToast.js'
-
 
 /**
 Constructor
@@ -18,7 +14,7 @@ class GridSampleApp()
 extends AApplication;
 
 
-function GridSampleApp:onReady()
+function GridSampleApp*onReady()
 {
 	super.onReady();
 

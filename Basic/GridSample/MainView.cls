@@ -15,7 +15,7 @@ class MainView()
 extends AView;
 
 
-function MainView:init(context, evtListener)
+function MainView*init(context, evtListener)
 {
 	super.init(context, evtListener);
 
@@ -37,7 +37,7 @@ function MainView*onInitDone()
 
 
 //심플그리드의 셀을 선택했을 시...
-function MainView:onSimpleGridSelect(comp:AGrid, info, event)
+function MainView*onSimpleGridSelect(comp:AGrid, info, event)
 {
 	var cell = info[0];
 	
