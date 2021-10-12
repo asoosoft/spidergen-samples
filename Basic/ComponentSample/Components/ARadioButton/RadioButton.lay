@@ -1,0 +1,43 @@
+<div class="AView-Style" data-base="AView" data-class="RadioButton" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(205, 205, 205);" data-browser-width="1160" data-browser-height="830" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ARadioGroup&quot;,&quot;ARadioButton&quot;,&quot;ATextField&quot;,&quot;ALabel&quot;,&quot;ATextArea&quot;,&quot;AButton&quot;]}">
+    <div class="AView-Style" data-base="AView" data-class="AView" data-sgap-height="1" data-sgap-width="1" data-stretch-height="true" data-stretch-width="true" id="RadioButton--bodyView" style="height: calc((100% - 10px) - 10px); left: 10px; top: 10px; width: calc((100% - 10px) - 10px); background-color: rgb(255, 255, 255); min-width: 960px; min-height: 800px;">
+        <div class="AView-Style" data-base="AView" data-class="AView" id="MainView--testArea" style="width: 430px; height: 110px; left: 50px; top: 120px; background-color: rgba(0, 0, 0, 0);">
+            <div class="ARadioGroup-Style" data-base="ARadioGroup" data-class="ARadioGroup" data-default-select="rdoBtn01" id="MainView--rdoGroup" style="width: 100%; height: 50px; left: 0px; top: 0px;">
+                <span class="ARadioButton-Style radiobtn_check" data-base="ARadioButton" data-class="ARadioButton" data-listener-click="MainView:onRdoBtnClick" data-radio-value="apple" id="MainView--rdoBtn01" style="width: 100px; height: 20px; left: 25px; top: 13px;" tabindex="0">사과</span>
+                <span class="ARadioButton-Style" data-base="ARadioButton" data-class="ARadioButton" data-listener-click="MainView:onRdoBtnClick" data-radio-value="grape" id="MainView--rdoBtn02" style="width: 100px; height: 20px; left: 168px; top: 13px;" tabindex="0">포도</span>
+                <span class="ARadioButton-Style" data-base="ARadioButton" data-class="ARadioButton" data-listener-click="MainView:onRdoBtnClick" data-radio-value="banana" id="MainView--rdoBtn03" style="width: 100px; height: 20px; left: 303px; top: 13px;" tabindex="0">바나나</span>
+            </div>
+            <input class="ATextField-Style" data-base="ATextField" data-class="ATextField" id="RadioButton--txtText" placeholder="text" style="width: 170px; height: 22px; left: 0px; top: 60px; background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0);" type="text" autocomplete="off" value="선택 라디오 버튼 값:">
+            <input class="ATextField-Style" data-base="ATextField" data-class="ATextField" id="RadioButton--txtRdoText" placeholder="text" readonly="readonly" style="width: 120px; height: 22px; left: 162px; top: 60px;" type="text" autocomplete="off">
+            <input class="ATextField-Style" data-base="ATextField" data-class="ATextField" id="MainView--txtRdoValue" placeholder="value" readonly="readonly" style="width: 130px; height: 22px; left: 290px; top: 60px;" type="text" autocomplete="off">
+        </div>
+        <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" style="width: auto; height: auto; left: 50px; top: 50px;">라디오 버튼 그룹 사용방법</label>
+        <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" style="width: auto; height: auto; left: 50px; top: 390px;">라디오 버튼 매니저 사용방법</label>
+        <div class="AView-Style" data-base="AView" data-class="AView" style="width: 400px; height: 230px; left: 530px; top: 80px; background-color: rgba(0, 0, 0, 0);">
+            <textarea data-base="ATextArea" data-class="ATextArea" class="ATextArea-Style" style="width: 600px; height: 280px; left: 10px; top: 30px; background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0);">라디오 그룹 컴포넌트 안에 라디오 버튼을 배치합니다.
+(예시 : rdoGroup &gt; rdoBtn01, rdoBtn02, rdoBtn3
+            lay 파일의 구조 참조해주세요.)
+
+각 라디오 버튼의 텍스트와 값(value)를 Attribute에서 설정합니다.
+
+각 라디오 버튼에 onRdoBtnClick 이름의 클릭 이벤트를 바인딩합니다.
+
+버튼이 클릭되면 선택된 버튼의 텍스트와 값을 출력합니다.
+(RadioButton.cls를 참조해주세요.)</textarea>
+        </div>
+        <div class="AView-Style" data-arrange="left" data-base="AView" data-class="AView" style="width: auto; height: auto; left: 46px; top: 440px;" id="RadioButton--btnGroup">
+            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-group="btns" data-listener-click="MainView:onAButtonClick" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative; float: left;">Button</button>
+            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-group="btns" data-listener-click="MainView:onAButtonClick" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative; float: left;">Button</button>
+            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-group="btns" data-listener-click="MainView:onAButtonClick" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative; float: left;">Button</button>
+            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-group="btns" data-listener-click="MainView:onAButtonClick" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative; float: left;">Button</button>
+        </div>
+        <div class="AView-Style" data-base="AView" data-class="AView" style="width: 620px; height: 340px; left: 530px; top: 410px; background-color: rgba(0, 0, 0, 0);">
+            <textarea data-base="ATextArea" data-class="ATextArea" class="ATextArea-Style" style="width: 600px; height: 280px; left: 10px; top: 20px; background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0);">Library에 RadioBtnManager를 추가합니다.
+(Library &gt; 우클릭 &gt; Add System LIB &gt; RadioBtnManager.js 검색 &gt; 추가)
+
+RadioBtnManager를 생성한 후 selectButton을 설정합니다.
+
+클릭 이벤트에서 셀렉트 버튼을 설정합니다.
+</textarea>
+        </div>
+    </div>
+</div>

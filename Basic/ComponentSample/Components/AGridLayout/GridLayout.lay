@@ -1,0 +1,34 @@
+<div class="AView-Style" data-base="AView" data-class="GridLayout" data-fullview="true" data-work-size="100px|50px|1030px|810px" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(205, 205, 205);">
+    <div class="AView-Style" data-base="AView" data-class="AView" data-sgap-height="1" data-sgap-width="1" data-stretch-height="true" data-stretch-width="true" style="width: calc((100% - 10px) - 10px); height: calc((100% - 10px) - 10px); left: 10px; top: 10px; background-color: rgb(255, 255, 255);">
+        <div class="AView-Style" data-base="AView" data-class="AView" style="width: 400px; height: 540px; left: 560px; top: 40px; background-color: rgba(0, 0, 0, 0);"><label class="ALabel-Style" data-base="ALabel" data-class="ALabel" style="width: auto; height: auto; left: 0px; top: 0px; position: absolute; float: none; line-height: 18px;">그리드레이아웃 컴포넌트는 다양한 화면 레이아웃을 구성할 수 있습니다.</label>
+            <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" style="width: auto; height: auto; left: 0px; top: 70px; position: absolute; float: none; line-height: 18px;">각 셀의 align, valing 속성을 이용하면 셀안에서의 배치를 다양하게 할수 있습니다.</label>
+            <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" style="width: auto; height: auto; left: 0px; top: 290px; position: absolute; float: none; line-height: 18px;">1,1의 셀로 구성하면 간단한 컴포넌트 정렬에 사용이 가능합니다.</label>
+        </div>
+        <div class="AGridLayout-Style dev_AGridLayout_Style" data-base="AGridLayout" data-class="AGridLayout" data-flag="0001" style="width: 320px; height: 210px; left: 60px; top: 50px; border-color: rgb(217, 217, 217); border-width: 1px; border-style: dotted;">
+            <table cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align: left; vertical-align: middle;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button></td>
+                        <td style="text-align: center; vertical-align: middle;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; vertical-align: top;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button></td>
+                        <td style="text-align: right; vertical-align: bottom;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="AGridLayout-Style dev_AGridLayout_Style" data-base="AGridLayout" data-class="AGridLayout" data-flag="0001" style="width: 390px; height: 70px; left: 60px; top: 330px; border-color: rgb(217, 217, 217); border-width: 1px;">
+            <table cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr style="height: 100%;">
+                        <td style="width: 100%; text-align: left; vertical-align: middle;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button>
+                            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative; margin-left: 10px;">Button</button>
+                            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative; margin-left: 10px;">Button</button>
+                            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative; margin-left: 10px;">Button</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+{
+  "styleName": "buttonStyle",
+  "items": {
+    "comm_btn_nor": "\r\n\r\n.comm_btn_nor\r\n{\t\r\n\tcolor : #ffffff;\r\n\tbackground-color : royalblue;\r\n\t\r\n}",
+    "comm_btn_tch": "\r\n.comm_btn_tch\r\n{\r\n\tcolor : #ffffff;\r\n\tbackground-color : blue;\r\n}",
+    "comm_btn_dis": "\r\n\r\n.comm_btn_dis\r\n{\r\n\tcolor : #242424;\r\n\tbackground-color : gray;\r\n\r\n}",
+    "comm_checkbox": "\r\n\r\n.comm_checkbox\r\n{\r\n\tpadding-top : 0;\r\n\t\r\n\r\n}"
+  }
+}

@@ -1,0 +1,778 @@
+{
+  "projectName": "ComponentSample",
+  "fileTree": {
+    "type": 0,
+    "name": "ComponentSample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          },
+          {
+            "type": 11,
+            "name": "mdfc",
+            "relType": 7,
+            "path": "mdfc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": [
+          {
+            "type": 5,
+            "name": "RadioBtnManager.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 4,
+            "name": "common.stl",
+            "action": null,
+            "relType": 1,
+            "path": "assets\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 2,
+            "name": "ComponentSampleApp.cls",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 2,
+            "name": "MainView.cls",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 1,
+            "name": "Components",
+            "children": [
+              {
+                "type": 1,
+                "name": "AAccordion",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "ALabel",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "Label.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ALabel\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "Label.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ALabel\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AButton",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "Button.cls",
+                    "relType": 1,
+                    "path": "Components\\AButton\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "Button.lay",
+                    "relType": 1,
+                    "path": "Components\\AButton\\"
+                  },
+                  {
+                    "type": 4,
+                    "name": "buttonStyle.stl",
+                    "relType": 1,
+                    "path": "Components\\AButton\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ACheckBox",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "CheckBox.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ACheckBox\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "CheckBox.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ACheckBox\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ARadioButton",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "RadioButton.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ARadioButton\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "RadioButton.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ARadioButton\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ARadioGroup",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "ASelectBox",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "SelectBox.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ASelectBox\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "SelectBox.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ASelectBox\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ADropBox",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "DropBox.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ADropBox\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "DropBox.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ADropBox\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ASwitchButton",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "SwitchButton.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ASwitchButton\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "SwitchButton.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ASwitchButton\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AListView",
+                "children": [
+                  {
+                    "type": 1,
+                    "name": "img",
+                    "children": [
+                      {
+                        "type": 8,
+                        "name": "door.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\img\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "page_white_add.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\img\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "page_white_copy.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\img\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "page_white_delete.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\img\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "page_white_edit.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\img\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "page_white_paste.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\img\\"
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "items",
+                    "children": [
+                      {
+                        "type": 2,
+                        "name": "ListItemView.cls",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\items\\"
+                      },
+                      {
+                        "type": 3,
+                        "name": "ListItemView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Components\\AListView\\items\\"
+                      }
+                    ]
+                  },
+                  {
+                    "type": 2,
+                    "name": "ListView.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AListView\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "ListView.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AListView\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ATabView",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "TabView.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "TabView.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  },
+                  {
+                    "type": 2,
+                    "name": "SubView1.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "SubView1.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  },
+                  {
+                    "type": 2,
+                    "name": "SubView2.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "SubView2.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  },
+                  {
+                    "type": 2,
+                    "name": "SubView3.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "SubView3.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATabView\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AWindow",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "Window.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AWindow\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "Window.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AWindow\\"
+                  },
+                  {
+                    "type": 2,
+                    "name": "WindowView1.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AWindow\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "WindowView1.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AWindow\\"
+                  },
+                  {
+                    "type": 2,
+                    "name": "WindowView2.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AWindow\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "WindowView2.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AWindow\\"
+                  },
+                  {
+                    "type": 2,
+                    "name": "WindowView3.cls",
+                    "action": 5,
+                    "relType": 1,
+                    "path": "Source\\",
+                    "comment": ""
+                  },
+                  {
+                    "type": 3,
+                    "name": "WindowView3.lay",
+                    "action": 6,
+                    "relType": 1,
+                    "path": "Source\\",
+                    "comment": ""
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ASlider",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "Slider.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ASlider\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "Slider.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ASlider\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AProgress",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "Progress.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AProgress\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "Progress.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AProgress\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AView",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "InnerView.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AView\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "InnerView.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AView\\"
+                  },
+                  {
+                    "type": 2,
+                    "name": "View.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AView\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "View.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AView\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ACanvas",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "ADatePicker",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "AFlexLayout",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "FlexLayout.cls",
+                    "relType": 1,
+                    "path": "Components\\AFlexLayout\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "FlexLayout.lay",
+                    "relType": 1,
+                    "path": "Components\\AFlexLayout\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AFlexView",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "AGrid",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "Grid.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AGrid\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "Grid.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AGrid\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AGridLayout",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "GridLayout.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AGridLayout\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "GridLayout.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AGridLayout\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "AImage",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "Image.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AImage\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "Image.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\AImage\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ASplitView",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "ATextArea",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "TextArea.cls",
+                    "relType": 1,
+                    "path": "Components\\ATextArea\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "TextArea.lay",
+                    "relType": 1,
+                    "path": "Components\\ATextArea\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ATextField",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "TextField.cls",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATextField\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "TextField.lay",
+                    "action": null,
+                    "relType": 1,
+                    "path": "Components\\ATextField\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "ATree",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "AWebView",
+                "children": []
+              },
+              {
+                "type": 1,
+                "name": "AViewLoadEvent",
+                "children": [
+                  {
+                    "type": 2,
+                    "name": "ViewLoadEvent.cls",
+                    "relType": 1,
+                    "path": "Components\\AViewLoadEvent\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "ViewLoadEvent.lay",
+                    "relType": 1,
+                    "path": "Components\\AViewLoadEvent\\"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Views",
+        "children": [
+          {
+            "type": 2,
+            "name": "SubView1.cls",
+            "action": null,
+            "relType": 1,
+            "path": "Views\\"
+          },
+          {
+            "type": 3,
+            "name": "SubView1.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Views\\"
+          },
+          {
+            "type": 2,
+            "name": "SubView2.cls",
+            "action": null,
+            "relType": 1,
+            "path": "Views\\"
+          },
+          {
+            "type": 3,
+            "name": "SubView2.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Views\\"
+          },
+          {
+            "type": 2,
+            "name": "SubView3.cls",
+            "action": null,
+            "relType": 1,
+            "path": "Views\\"
+          },
+          {
+            "type": 3,
+            "name": "SubView3.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Views\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "image",
+        "children": [
+          {
+            "type": 8,
+            "name": "chiron1.jpg",
+            "action": null,
+            "relType": 1,
+            "path": "image\\"
+          },
+          {
+            "type": 8,
+            "name": "chiron2.jpg",
+            "action": null,
+            "relType": 1,
+            "path": "image\\"
+          },
+          {
+            "type": 8,
+            "name": "chiron3.jpg",
+            "action": null,
+            "relType": 1,
+            "path": "image\\"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3.2.7"
+}

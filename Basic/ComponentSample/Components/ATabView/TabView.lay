@@ -1,0 +1,35 @@
+<div class="AView-Style" data-base="AView" data-class="TabView" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(205, 205, 205);" data-browser-width="600" data-browser-height="800" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;AGridLayout&quot;,&quot;AButton&quot;,&quot;ATabView&quot;]}">
+    <div class="AView-Style" data-base="AView" data-class="AView" style="width: 100%; height: 50px; left: calc(50% - 300px); top: 0px; background-color: rgb(205, 205, 205);" data-center-x="true">
+        <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="" style="width: auto; height: auto; top: 0px; left: 210px; padding-left: 10px; background-color: rgba(0, 0, 0, 0); font-size: 20px; font-weight: bold; color: rgb(0, 0, 0); line-height: 50px;">Title:&nbsp;</label>
+        <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="TabView--TitleLabel" style="width: auto; height: auto; top: 0px; left: 260px; padding-left: 10px; background-color: rgba(0, 0, 0, 0); font-size: 20px; font-weight: bold; color: rgb(0, 0, 0); line-height: 50px;">TabView Sample</label>
+    </div>
+    <div class="AView-Style" data-base="AView" data-class="AView" id="TabView--ButtonView" style="width: 100%; height: 50px; left: 0px; top: 50px;">
+        <div class="AGridLayout-Style dev_AGridLayout_Style" data-base="AGridLayout" data-class="AGridLayout" data-flag="0001" style="width: 100%; height: 100%; left: 0px; top: 0px;">
+            <table cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr style="height: 100%;">
+                        <td style="width: 100%; text-align: center; vertical-align: middle;">
+                            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-group="TabBtnGroup" data-listener-click="TabView:onBtnSelectClick" id="TabView--ButtonTab1" style="width: 100px; height: 40px; position: relative; left: 0px; top: 0px;">TAB 1</button>
+                            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-group="TabBtnGroup" data-listener-click="TabView:onBtnSelectClick" id="TabView--ButtonTab2" style="height: 40px; width: 100px; position: relative; margin-left: 50px; left: 0px; top: 0px;">TAB 2</button>
+                            <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-group="TabBtnGroup" data-listener-click="TabView:onBtnSelectClick" id="TabView--ButtonTab3" style="width: 100px; height: 40px; text-align: center; position: relative; margin-left: 50px; left: 0px; top: 0px;">TAB 3</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="AView-Style" data-base="AView" data-class="AView" data-sgap-height="1" data-stretch-height="true" style="width: 100%; height: calc((100% - 100px) - 60px); left: 0px; top: 100px; background-color: rgba(0, 0, 0, 0);">
+        <div class="ATabView-Style" data-base="ATabView" data-class="ATabView" data-state="0" id="TabView--TabView1" style="width: 100%; left: 0px; top: 0px; height: 100%;">
+            <div class="tab_area" style="height: 40px; display: block;">
+                <span class="ATabView_select" style="line-height: 40px;">tab1</span>
+                <span class="ATabView_deselect" style="line-height: 40px;">tab2</span>
+                <span class="ATabView_deselect" style="line-height: 40px;">tab3</span>
+            </div>
+            <div class="tab_contents" style="height: calc(100% - 40px);"></div>
+        </div>
+    </div>
+    <div class="AView-Style" data-base="AView" data-class="AView" style="width: 100%; height: 60px; left: 0px; bottom: 0px;">
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TabView:onButtonTabShowClick" id="TabView--ButtonTabShow" style="width: 120px; height: 40px; left: 10px; top: 10px;">Show Tab</button>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TabView:onButtonTabHideClick" id="TabView--ButtonTabHide" style="width: 120px; height: 40px; left: 150px; top: 10px;">Hide Tab</button>
+    </div>
+</div>

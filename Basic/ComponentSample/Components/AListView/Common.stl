@@ -1,0 +1,7 @@
+{
+  "styleName": "common",
+  "items": {
+    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}",
+    "listview_select": "\r\n\r\n.listview_select\r\n{\r\n\tbackground: -webkit-linear-gradient(top,  #3D3D3D 0%, #252525 100%);\r\n}"
+  }
+}

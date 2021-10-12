@@ -1,0 +1,25 @@
+<div class="AView-Style" data-base="AView" data-class="TextField" data-fullview="true" data-work-size="100px|50px|600px|600px" id="TextField--" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(239, 239, 239);">
+    <input class="ATextField-Style" data-base="ATextField" data-class="ATextField" id="TextField--Text1" style="width: 300px; height: 22px; left: 60px; top: 50px;" type="text" value="텍스트 필드"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TextField:onSetTypeButtonClick" id="TextField--SetTypeButton" style="width: 80px; height: 20px; left: 60px; top: 240px;">Set Type</button>
+        <select class="ASelectBox-Style" data-base="ASelectBox" data-class="ASelectBox" data-flag="0001" id="TextField--TypeSelect" style="width: 90px; height: 20px; left: 160px; top: 240px;"><option value="text">text</option>
+            <option value="password">password</option>
+            <option value="number">number</option>
+            <option value="email">email</option>
+            <option value="tel">tel</option>
+            <option value="hidden">hidden</option></select>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TextField:onGetTypeButtonClick" id="TextField--GetTypeButton" style="width: 80px; height: 20px; left: 280px; top: 240px;">Get Type</button>
+        <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="TextField--ResultLabel1" style="width: auto; height: auto; left: 70px; top: 110px; line-height: 22px;"></label>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TextField:onAlignButtonClick" id="TextField--AlignButton" style="width: 80px; height: 20px; left: 60px; top: 290px;">Set Align</button>
+        <select class="ASelectBox-Style" data-base="ASelectBox" data-class="ASelectBox" data-flag="0001" id="TextField--AlignSelect" style="width: 100px; height: 20px; left: 160px; top: 290px;"><option value="left">left</option>
+            <option value="center">center</option>
+            <option value="right">right</option></select>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TextField:onSetTextButtonClick" id="TextField--SetTextButton" style="width: 80px; height: 22px; left: 60px; top: 190px;">Set Text</button>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TextField:onGetTextButtonClick" id="TextField--GetTextButton" style="width: 80px; height: 22px; left: 160px; top: 190px;">Get Text</button>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TextField:onSetReadonlyButtonClick" id="TextField--SetReadonlyButton" style="width: 80px; height: 22px; left: 60px; top: 330px;">Set Readonly</button>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="TextField:onSetEnableButtonClick" id="TextField--SetEnableButton" style="width: 80px; height: 22px; left: 60px; top: 370px;">Set Enable</button>
+        <select class="ASelectBox-Style" data-base="ASelectBox" data-class="ASelectBox" data-flag="0001" id="TextField--ReadonlySelect" style="width: 100px; height: 20px; left: 160px; top: 330px;">
+            <option value="false">false</option>
+            <option value="true">true</option></select>
+        <select class="ASelectBox-Style" data-base="ASelectBox" data-class="ASelectBox" data-flag="0001" id="TextField--EnableSelect" style="width: 100px; height: 20px; left: 160px; top: 370px;">
+            <option value="true">true</option>
+            <option value="false">false</option></select>
+    </div>
