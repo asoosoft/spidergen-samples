@@ -1,5 +1,0 @@
-<div class="AView-Style" data-base="AView" data-class="InnerView" data-work-size="0px|0px|400px|200px" style="width: 400px; height: 200px; left: 0px; top: 0px;">
-    <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 120px; height: 40px; left: 40px; top: 20px;">InnerView Button 1</button>
-    <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" style="width: 120px; height: 40px; left: 230px; top: 130px;">InnerView Button 2</button>
-    <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="InnerView--TitleLabel1" style="width: 100%; height: auto; left: 0px; top: 70px; text-align: center; font-size: 40px; color: rgb(64, 64, 64);"></label>
-</div>

@@ -1,4 +1,0 @@
-<div class="AView-Style" data-base="AView" data-class="SubView3" data-fullview="true" data-work-size="||100%|440px" id="SubView3--SubView3" style="width: 100%; height: 100%; background-color: rgb(255, 255, 0); left: 0px; top: 0px;">
-    <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="SubView3--TitleLabel" style="width: 100px; height: 30px; left: 10px; top: 10px; font-weight: bold; color: rgb(0, 0, 0); font-size: 18px;">Sub View 3</label>
-    <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="SubView3:onButtonSetTitleClick" id="SubView3--ButtonSetTitle" style="width: 120px; height: 40px; left: 210px; top: 190px;">Set Title</button>
-</div>

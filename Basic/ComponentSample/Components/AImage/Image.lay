@@ -1,5 +1,0 @@
-<div class="AView-Style" data-base="AView" data-class="Image" data-fullview="true" data-work-size="100px|50px|600px|600px" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(239, 239, 239);">
-    <img class="AImage-Style aimage-blank" data-base="AImage" data-class="AImage" data-flag="0001" id="Image--Image1" style="width: 290px; height: 230px; left: 60px; top: 50px;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="Image:onSeButtonClick" id="Image--SeButton" style="width: 80px; height: 22px; left: 60px; top: 300px;">Set Image</button>
-        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="Image:onGetButtonClick" id="Image--GetButton" style="width: 80px; height: 22px; left: 180px; top: 300px;">Get Image</button>
-        <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="Image--ResultLabel1" style="width: auto; height: auto; left: 70px; top: 390px; line-height: 22px;"></label>
-    </div>

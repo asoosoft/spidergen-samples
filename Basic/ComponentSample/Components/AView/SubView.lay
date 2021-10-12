@@ -1,5 +1,0 @@
-<div class="AView-Style" data-base="AView" data-class="SubView" data-fullview="true" data-work-size="100px|50px|600px|600px" style="left: 0px; top: 0px; width: 100%; height: 100%;">
-    <div class="AView-Style" data-base="AView" data-class="AView" id="SubView--BlankFlexView" style="width: 400px; height: 400px; left: 0px; top: 80px;"></div>
-    <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="SubView:onPrevButtonClick" id="SubView--PrevButton" style="width: 120px; height: 40px; left: 50px; bottom: 50px;">Prev</button>
-    <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" style="width: auto; height: auto; left: 50px; top: 30px; font-size: 20px; font-weight: bold; color: rgb(0, 0, 0);">FlexView</label>
-</div>
