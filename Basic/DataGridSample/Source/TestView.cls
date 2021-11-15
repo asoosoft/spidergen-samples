@@ -89,7 +89,7 @@ function TestView:onInitDone()
 function TestView*onDataGridBtnClick(comp, info, e)
 {
 	//info is button element
-	console.log(info.textContent);
+	console.log('Btn Clicked : ' + info.textContent);
 
 };
 
@@ -109,6 +109,6 @@ function TestView*onDataGridChkClick(comp, info, e)
 function TestView*onDataGrid1Select(comp, info, e)
 {
 	//info is select row
-	console.log(info);
+	console.log('Grid Select : ' + info);
 
 };
