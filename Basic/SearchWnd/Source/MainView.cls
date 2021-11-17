@@ -61,7 +61,8 @@ function MainView*onInputEditFocus(comp, info, e)
 		
 		if(result)
 		{
-			AfcMessageBox('알림', result.name);
+			thisObj.inputEdit.setText(result.name);
+			
 			console.log(result.name);
 		}
 	});
@@ -107,4 +108,11 @@ function MainView*onInputEditKeyDown(comp, info, e)
 	}
 	
 	
+};
+
+function MainView*onSearchBtnClick(comp, info, e)
+{
+
+	console.log('검색어 : ' + this.inputEdit.getText());
+
 };

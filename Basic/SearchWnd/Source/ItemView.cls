@@ -17,7 +17,7 @@ function ItemView*init(context, evtListener)
 {
 	super.init(context, evtListener);
 
-	var data = this.item.itemData;
+	var data = this._item.itemData;
 
 	this.name.setText(data.name);
 	this.code.setText('('+data.code+')');
@@ -46,7 +46,7 @@ function ItemView*onDeleteBtnClick(comp, info, e)
 	setTimeout(function()
 	{
 		//ResultView removeCodeItem
-		thisObj.owner.getRootView().removeCodeItem(thisObj.item);
+		thisObj.owner.getRootView().removeCodeItem(thisObj._item);
 		
 	}, 1);
 	
