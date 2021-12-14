@@ -23,6 +23,8 @@ function QuerySampleApp*onReady()
 
 	var navigator = new ANavigator();
 	navigator.registerPage('Source/MainView.lay', 'MainView');
+	navigator.registerPage('Source/SampleView1.lay', 'SampleView1');
+	
 	navigator.goPage('MainView');
 
 	//or

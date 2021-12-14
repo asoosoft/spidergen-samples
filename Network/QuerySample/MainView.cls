@@ -96,3 +96,9 @@ function MainView*onSendBtnClick(comp, info, e)
 	});
 };
 
+
+function MainView*onNextBtnClick(comp, info, e)
+{
+	this.getContainer().navigator.goPage('SampleView1');
+
+};
