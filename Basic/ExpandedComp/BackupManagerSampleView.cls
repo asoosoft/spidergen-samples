@@ -15,7 +15,8 @@ extends AView;
 
 function BackupManagerSampleView*onInitDone()
 {
-
+	super.onInitDone();
+	
 	this.testListView.createBackup( 60, 20 );
 	this.testGrid.createBackup( 60, 20 );
 	
